@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/IMG/The Arcade - Vaporwave.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+header {
+  background-color: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center ;
+  background-color: #444;
+}
+
+
+nav ul {
+  max-width: 70px;
+  max-height: 70px;
+  align-items: center;
+  justify-content: space-around center;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s;
+  margin: auto;
+  border-radius: 10px;
+ padding-bottom: 10px;
+ justify-content: left;
+
+}
+
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+img  {
+  width: 100%;
+}
+
+
+.top {
+  color:red ;
+  display: block;
+}
+.section-container {
+  display: flex;
+  width: 100%;
+}
+
+.image-section {
+  flex: 1; /* Take up 50% of the container */
+}
+
+.image-section img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain the aspect ratio */
+}
